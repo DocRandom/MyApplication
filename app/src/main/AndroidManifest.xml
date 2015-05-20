@@ -8,8 +8,12 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:name="com.docrandom.myapplication.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message" 
+			android:parentActivityName="com.docrandom.myapplication">
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value="com.docrandom.myapplication.mainactivity"/>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
