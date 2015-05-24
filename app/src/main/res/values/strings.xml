@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
-	<string name="edit_message">enter a message</string>
-	<string name="button_send">Send</string>
-	<string name="title_activity_main">MainActivity</string>
-    <string name="hello_world">first steps on github!</string>
-    <string name="action_settings">Settings</string>
-	<string name="title_activity_display_message">My Message</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="action_search">SUCH</string>
 </resources>
